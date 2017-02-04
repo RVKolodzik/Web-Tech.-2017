@@ -64,7 +64,6 @@ html, body, header{
 	background-image: url("images/cover2.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	width:100%;
@@ -72,31 +71,57 @@ html, body, header{
 }
 
 .fourthcover p{
-	padding-top: 3%; 
-	text-align: justify; 
+	margin-left: 10px;
+	padding-top: 0;
+	text-align: justify;
+	color: white;
+}
+
+.fourthcover h3{
+	margin-left: 10px;
+	padding-top: 0;
+	text-align: center;
 	color: white;
 }
 
 #cause1{
-	padding-left: 10px;
 	width: 24%;
 	float: left;
 }
 
 #cause2{
-	margin-left: 10px;
 	width: 24%;
 	float: left;
 }
 
 #cause3{
-	margin-left: 10px;
 	width: 24%;
 	float: left;
 }
 
 #cause4{
-	margin-left: 10px;
+	width: 24%;
+	float: left;
+}
+
+#jealousy{
+	width: 24%;
+	float: left;
+}
+
+#slowPace{
+	width: 24%;
+	float: left;
+}
+
+#lack{ 
+	width: 24%;
+	float: left;
+	font-size: 13px;
+	padding-top: 10px;
+}
+
+#greed{
 	width: 24%;
 	float: left;
 }
@@ -153,6 +178,67 @@ html, body, header{
 	color: white;
 }
 
+.eighthcover h3{
+	margin-left: 10px;
+	padding-top: 0;
+	text-align: center;
+	color: white;
+}
+
+#column1{
+	width: 32%;
+	float: left;
+	opacity: 0;
+}
+
+#column1:hover{
+	width: 32%;
+	float: left;
+	opacity: 1;
+	transition: 0.5s;
+}
+
+#column2{
+	float: left;
+	width: 32%;
+	opacity: 0;
+}
+
+#column2:hover{
+	width: 32%;
+	float: left;
+	opacity: 1;
+	transition: 0.5s;
+}
+
+#column3{
+	width: 32%;
+	float: left;
+	opacity: 0;
+}
+
+#column3:hover{
+	width: 32%;
+	float: left;
+	opacity: 1;
+	transition: 0.5s;
+}
+
+#raphael{
+	float: left;
+	width: 32%;
+}
+
+#derick{
+	float: left;
+	width: 32%;
+}
+
+#rio{
+	float: left;
+	width: 32%;
+}
+
 .ninethcover{
 	background-image:url("images/cover.jpg");
 	background-repeat: no-repeat;
@@ -175,21 +261,6 @@ html, body, header{
 	padding-top: 0;
 	text-align: justify;
 	color: white;
-}
-
-#column1{
-	width: 32%;
-	float: left;
-}
-
-#column2{
-	float: left;
-	width: 32%;
-}
-
-#column3{
-	width: 32%;
-	float:left;
 }
 
 /*
