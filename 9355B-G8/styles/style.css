@@ -1,19 +1,237 @@
-html{
-
+html, body, header{
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: auto;
-}
-
-body{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: auto;
+	height: 100%;
+	font-family: arial, san-serif;
+	font-weight: bold;
+	background-color: black;
+	overflow-x: hidden;
 }
 
 .container{
-
+	position: absolute;
+	height: 100%;
 	width: 100%;
 }
+
+#cover{
+	background-image: url("images/cover.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width:100%;
+	height:100%;
+}
+
+.firstcover{
+	background-image:url("images/1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.secondcover{
+	background-image: url("images/cover2.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border: 1px solid black;
+	width:100%;
+	height:100%;
+}
+
+.secondcover p{
+	padding-left: 35%;
+	padding-right: 35%;
+	padding-top: 25%; 
+	text-align: justify;
+	color: white;
+}
+
+.thirdcover{
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.fourthcover{
+	background-image: url("images/cover2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width:100%;
+	height:100%;
+}
+
+.fourthcover p{
+	padding-top: 3%; 
+	text-align: justify; 
+	color: white;
+}
+
+#cause1{
+	padding-left: 10px;
+	width: 24%;
+	float: left;
+}
+
+#cause2{
+	margin-left: 10px;
+	width: 24%;
+	float: left;
+}
+
+#cause3{
+	margin-left: 10px;
+	width: 24%;
+	float: left;
+}
+
+#cause4{
+	margin-left: 10px;
+	width: 24%;
+	float: left;
+}
+
+.fifthcover{
+	background-image:url("images/cover.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.sixthcover{
+	background-image: url("images/cover2.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border: 1px solid black;
+	width:100%;
+	height:100%;
+}
+
+.sixthcover p{
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 18%; 
+	text-align: justify;
+	color: white;
+}
+
+.seventhcover{
+	background-image:url("images/cover.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.eighthcover{
+	background-image: url("images/cover2.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width:100%;
+	height:1050px;
+}
+
+.eighthcover p{
+	margin-left: 10px;
+	padding-top: 0;
+	text-align: justify;
+	color: white;
+}
+
+.ninethcover{
+	background-image:url("images/cover.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.tenthcover{
+	background-image: url("images/statistics.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	width:100%;
+	height:100%;
+}
+
+.tenthcover p{
+	margin-left: 10px;
+	padding-top: 0;
+	text-align: justify;
+	color: white;
+}
+
+#column1{
+	width: 32%;
+	float: left;
+}
+
+#column2{
+	float: left;
+	width: 32%;
+}
+
+#column3{
+	width: 32%;
+	float:left;
+}
+
+/*
+#first{
+	width: 100%;
+	height: 2%;
+	background-color: #030303;
+}
+
+#second{
+	width: 100%;
+	height: 2%;
+	background-color: #050505;
+}
+#third{
+	width: 100%;
+	height: 2%;
+	background-color: #060606;
+}
+
+
+.middle{ 
+	position: relative;
+	height:100%;
+	width: 100%;
+	background-color: white;
+}
+
+#left{
+	position: absolute;
+	border-radius: 3px;
+	width: 80%;
+	padding: 0;
+	height: 100%;	
+}
+
+#left h1{
+	margin-top: 3%;
+	margin-left: 3%;
+	font-family: 'Segoe UI Semibold', 'Arial';
+	font-size: 40px;
+	color: black;
+	font-family: 
+}
+*/
