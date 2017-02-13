@@ -1,0 +1,430 @@
+html, body{
+    height: 100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    background-color: #0e0e0e;
+    color: white;
+}
+
+header{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    top: 35%;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#cover{
+    background-attachment: fixed;
+    background-image: url("images/bgcover.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    height:100%;
+    width: 100%;
+}
+
+#menu{
+    color: white;
+    position: absolute;
+    background-color: #1d1a19;
+    height: 12%;
+    width: 100%;
+    top: 100%;
+}
+
+ul{
+    position: relative;
+    width: 91%;
+    margin-top: 3%;
+	overflow: hidden;
+}
+
+li{
+	list-style-type: none;
+}
+
+li a{ 
+    background-color: #1d1a19;
+    font-family: 'Verdana', 'Arial','Sans Serif';
+	color: white;
+	float: left;
+	text-decoration: none;
+    padding: 0% 5.1%;
+
+}
+
+li a:hover{
+    background-color: #d85e3a;
+    color: black;
+}
+
+#blackbg{
+    margin: 0;
+    height: 60%;
+    width: 100%;
+    background-color:black;
+    opacity: 0.5;
+    color: white;
+}
+
+#intro{
+    text-align: center;
+    height: 50%;
+    width: 100%;
+    top: 10%;
+    position: absolute;
+}
+
+#intro h1{
+    width: 100%;
+    top: -50%;
+    font-family: 'Verdana','Arial';
+    font-size: 100px;
+    position: absolute;
+}
+
+#intro p{
+    width: 100%;
+    top: 45%;
+    font-family: 'Verdana', 'Arial';
+    font-size: 25px;
+    position: absolute;
+}
+
+#secondcover{
+    width: 43%;
+    background-color: #0e0e0e;
+    padding-left: 5%;
+    padding-right: 8%;
+    padding-top: 10%;
+    float: right;
+    margin-top: 1%;
+}
+
+#secondcover p{
+    font-family: 'verdana';
+    color: #e5dfc5;
+    padding-bottom: 5%;
+}
+
+#left{
+    text-align: right;
+    background-color: #0e0e0e;
+    padding-right: 2%;
+    position: absolute;
+    width: 45%;
+    float: left;
+    margin-top: 6.5%;
+}
+
+#left h2{
+    padding: 6% 0% 4% 7%;
+    font-weight: lighter;
+    font-size: 42px;
+    position: relative;
+    left: 25%;
+    width: 70%;
+    font-family: 'verdana';
+}
+
+.clear{
+    clear: both;
+}
+
+#about{
+    margin: 0;
+    background-color: salmon;
+    padding: 2%;
+}
+
+#about h3{
+    font-family: 'Verdana';
+    font-weight: lighter;
+    text-align: center;
+}
+
+#cause{
+    background-attachment: fixed;
+    background-image: url("images/cover2.jpg");
+    color: white;
+}
+
+#cause h2{
+    font-family: 'impact';
+    font-size: 40px;
+    text-align: center;
+    margin-left: 15%;
+    width: 65%;
+    border-bottom: 4px solid #d85e3a;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    letter-spacing: 2px;
+    color: #a2482e;
+}
+
+.fourthcover{
+    width: 100%;
+    overflow: auto;
+}
+
+#cause1{
+    padding: 5%;
+    float: left;
+    width: 39.5%;
+    border-right: 2px solid #d85e3a;
+}
+
+#cause1 p{
+    text-align: right;
+    line-height: 25px;
+    margin-top: 17%;
+    margin-left: 30%;
+    width: 70%;
+    font-family: 'verdana';
+    font-size: 20px;
+}
+
+#cause1 h3{
+    color: #a2482e;
+    font-family: 'impact';
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-left: 53%;
+    margin-top: 15%;
+}
+
+#cause2{
+    border-left: 2px solid #d85e3a;
+    padding: 5%;
+    float: left;
+    width: 40%;
+
+}
+
+#cause2 h3{
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-family: 'impact';
+    color: #a2482e;
+    width: 50%;
+}
+
+#cause2 p{
+    text-align: left;
+    line-height: 25px;
+    width: 80%;
+    font-family: 'verdana';
+    font-size: 20px;
+}
+
+#cause3 h3{
+    text-align: center;
+    font-family: 'impact';
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #a2482e;
+    border-bottom: 2px solid #d85e3a;
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 5px;
+}
+
+#cause3 p{
+    text-align: center;
+    width: 50%;
+    font-family: 'verdana';
+    font-size: 20px;
+    margin-left: 23%;
+}
+
+.cause4_wrapper{
+    padding: 5%;
+    margin: 3%;
+    border: 2px solid #d85e3a;
+}
+
+#cause4 h3{
+    text-align: center;
+    font-family: 'impact';
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #a2482e;
+    width: 15%;
+    margin-left: 40%;
+}
+
+#cause4 p{
+    text-indent: 50px;
+    text-align: justify;
+    margin-left: 15%;
+    font-family: 'verdana';
+    width: 70%;
+}
+
+#cause5{
+    padding: 5%;
+}
+
+#cause5 h3{
+    text-align: center;
+    font-family: 'impact';
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #a2482e;
+}
+
+#cause5_top{
+    margin-left: 11.3%;
+    width: 75%;
+    padding: 0.5%;
+    font-size: 15px;
+    background-color: #d85e3a;
+    color: white;
+    text-align: center;
+    font-family: 'verdana';    
+}
+
+p{
+    font-family: 'verdana';
+}
+
+#cause5_left{
+    background-color: #131112;
+    width: 21.3%;
+    padding: 3% 2%;
+    margin-left: 11.2%;
+    float: left;
+}
+
+#cause5_left h4{
+    margin-left: 20%;
+    width: 80%;
+    text-align: right;
+}
+
+
+#cause5_left p{
+    font-size: 20px;
+    text-align: right;
+}
+
+#cause5_middle{
+    text-align: center;
+    float: left;
+    background-color: #131112;
+    width: 21.54%;
+    padding: 3% 2% 7.2% 2%;
+}
+
+#cause5_middle h4{
+    padding-top: 5%;
+    text-align: center;
+}
+
+#cause5_middle p{
+    padding-top:7%;
+    font-size: 20px;
+}
+
+#cause5_right{
+    float: left;
+    background-color: #131112;
+    width: 21.3%;
+    padding: 3% 2% 13.4% 2%;
+}
+
+#cause5_right p{
+    font-size: 20px;
+}
+
+#cause5_bottom{
+    margin-left: 11.3%;
+    width: 75%;
+    padding: 0.5%;
+    font-size: 15px;
+    background-color: #d85e3a;
+    color: white;
+    text-align: center;
+    font-family: 'verdana';
+    
+}
+span{
+    color: white;
+}
+h4{
+    font-family: 'impact';
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+#change{
+    padding: 3%;
+    background-image: url("images/cover3.jpg");
+    background-attachment: fixed;
+}
+
+#change h3{
+    color: #d85e3a;
+    text-align: center;
+    font-size: 80px;
+}
+
+h3{
+    font-family: 'impact';
+}
+
+#eigthcover{
+    color: black;
+    padding: 5%;
+    background-color: beige;
+}
+
+#columnchange h3{
+    border-bottom: 2px solid #d85e3a;
+    color: #d85e3a;
+    font-size: 30px;
+    width: 40%;
+}
+
+#column2 h3{
+    font-size: 30px;
+    color: #d85e3a;
+    border-bottom: 2px solid #d85e3a;
+    padding-bottom: 10px;
+    width: 40%;
+}
+
+.tenthcover{
+    background-color: #2d2424;
+    padding: 5%;
+    position: relative;
+}
+
+.tenthcover img{
+    height: 100%;
+    width: 100%;
+}
+
+.tenthcover h2{
+    color: #d85e3a;
+    font-family: 'impact';
+    font-size: 50px;
+}
+
+.clear{
+    clear: both;
+}
+
+footer{
+    margin: 0;
+    padding: 5%;
+    background-color: cadetblue;
+}
