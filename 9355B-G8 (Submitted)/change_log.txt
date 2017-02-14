@@ -1,0 +1,58 @@
+added some contents(text and images) to the whole webpage
+removed all &emsp, &nbsp, and br tags
+
+removed <div id="cover> from inside the header and instead used it as wrapper of the top portion of the html
+added contents to the header
+removed <nav id="menu"> from inside of header
+added <div id="main_content" to wrap the whole content of the html
+changed <div id="defition> to <section> and used to wrap this whole section
+	added division of section into two columns
+	changed class="secondcover" to id="secondcover
+
+added some <div class="clear"> tags
+
+class fourthcover previously wrapped the 5 sections, now it only wraps the 2 first sections in
+
+added division to the id cause
+    removed id of all h3 in this cause section
+    transferred the id of p into id of each defined sections
+
+added class="cause4_wrapper to wrap the paragraphs of this section
+    divided the previously 2 paragraphs wrapped in 1 <p> into 2 separate <p>s in class="cause4_wrapper"
+
+id=cause5
+	transferred this section from "be the change" to "cause" section
+	divided the 2 first paragraphs into two different <p>s
+	changed name from id="column3" into id="cause5"
+
+class=causewrapper
+	added a wrapper class to wrap this 3 sections -->
+    divided "THE THREE TYPES OF CORRUPTION" into three subsections
+    all h4s found here are new
+    all 3 types were previously inside one <p>, now we divided it into 3 separate <p>s
+
+separated the last paragraph found in "THE THREE TYPES OF CORRUPTION and assigned it to a new div and id
+
+id=eigthcover
+	changed class="eighthcover" into id="eigthcover
+    removed all id of h3 tags
+
+id=column2
+	divided the previously 2 paragraphs wrapped into 1 p tag into two separate p tags
+
+id=change
+	used <div id="change" as wrapper of change section instead of reusing the eighthcover class previously
+    removed the write-up "THE THREE TYPES OF CORRUPTION" from here and transferred it in the cause section
+    removed the br tag
+    removed id of h3 tag
+
+id=column1
+	removed the id of p tag and transferred it into as the id of the newly created section
+	changed by re-writing some parts of this paragraph
+
+class=tenthcover
+	removed <div id="fact"
+    changed from being <div> into <section>
+
+added about section as content
+added a footer tag
