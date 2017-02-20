@@ -1,0 +1,158 @@
+/*Three Types of Corruption section*/
+
+#cause5 h3{
+    margin-top: 65%;
+    text-align: center;
+    font-family: 'Franklin Gothic Heavy', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: black;
+    background-color: #9A3334;
+}
+
+#cause5_top{
+    margin-bottom: .3%;
+    margin-top: -4%;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif; 
+    text-align: justify;
+    text-indent: 50px;
+    color: #000000; 
+    background-color: inherit;
+    border: 5px solid #F3EFE0;
+}
+
+#cause5_top p{ 
+    color: #F3EFE0;
+    background-color: inherit;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#cause5_left{
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 1%;
+    margin-bottom: 1%;
+    background-color: #9A3334;
+    color: #000000; 
+    text-indent: 30px;
+}
+
+#cause5_left h4{
+    text-align: center;
+    font-size: 30px;
+    color: #F3EFE0;
+    background-color: inherit;
+}
+
+#cause5_left p{
+    font-size: 18px;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+#cause5_middle{
+    margin-bottom: 1%;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 1%;
+    text-indent: 30px;
+    background-color: #9A3334;
+    color: #000000;
+}
+
+#cause5_middle h4{
+    text-align: center;
+    font-size: 30px;
+    color: #F3EFE0;
+    background-color: inherit;
+}
+
+#cause5_middle p{
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+#cause5_right{
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 1%;
+    text-indent: 30px;
+    background-color: #9A3334;
+    color: inherit;
+}
+
+#cause5_right h4{
+    text-align: center;
+    font-size: 30px;
+    color: #F3EFE0;
+    background-color: inherit;
+}
+
+#cause5_right p{
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 2%;
+    margin-left: 2%;
+    color: #000000;
+    background-color: inherit;
+}
+
+#cause5_bottom{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif;
+    border: 5px solid #F3EFE0;
+    color: #000000;
+    background-color: inherit;
+    text-align: justify;
+    text-indent: 50px; 
+}
+
+#cause5_bottom p{
+    color: white;
+    background-color: inherit;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+/*Be the Change section*/
+
+#change{
+    background-color: #000000;
+    color: inherit;
+    padding: 3%;
+}
+
+#change h3{
+    color: white;
+    background-color: inherit;
+    text-align: center;
+    font-size: 80px;
+}
+
+#change p{
+    padding: 5%;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    background-color: #F3EFE0;
+}
+
+#column1 p{
+    text-indent: 25px;
+    text-align: justify;
+    border: 10px double #9A3334;
+    margin-left: 1%;
+    padding: 5% 
+}
+
+video{
+    height: 576px; 
+    width: 924px;
+    border: 2px solid white;
+    margin-left: 2.5%;
+    margin-top: 10px;
+}
